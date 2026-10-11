@@ -1,0 +1,29 @@
+{
+  "name": "accenture-mock-test-platform",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "test": "vitest run",
+    "preview": "vite preview",
+    "typecheck:api": "tsc --ignoreConfig --noEmit --target ES2022 --module ESNext --moduleResolution bundler --types node --esModuleInterop --skipLibCheck api/attempts.ts api/technical-questions.ts api/leaderboard.ts api/coding-submissions.ts api/_lib/supabase.ts"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "latest",
+    "@vitejs/plugin-react": "latest",
+    "vite": "latest",
+    "typescript": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "lucide-react": "latest"
+  },
+  "devDependencies": {
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "@types/node": "latest",
+    "vitest": "latest",
+    "jsdom": "latest"
+  }
+}

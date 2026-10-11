@@ -1,0 +1,27 @@
+{
+  "readableFiles": [
+    "TalentShine_Accenture_CS_Fundamentals_Handout.docx",
+    "TalentShine_Accenture_Networking_Handout.docx",
+    "TalentShine_Accenture_Coding_SQL_Frontend_Handout .docx",
+    "TalentShine_MS_Office_Handout_and_MCQ_Bank.docx",
+    "01_Accenture_DevOps_MCQ_Master_Notes.docx"
+  ],
+  "candidateQuestionsExtracted": 45,
+  "questionsUsed": 45,
+  "missingSelections": [],
+  "aiGeneratedGapFill": 0,
+  "actualPyqs": 0,
+  "providedStudyMaterial": 45,
+  "byTopic": {
+    "Operating Systems": 7,
+    "Networking": 6,
+    "Cloud": 4,
+    "DevOps": 3,
+    "Security": 4,
+    "Software Design": 2,
+    "Database / SQL": 5,
+    "Web Technologies": 5,
+    "Programming Fundamentals": 7,
+    "Other Topics": 2
+  }
+}

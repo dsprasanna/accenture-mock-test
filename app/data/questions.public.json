@@ -1,0 +1,632 @@
+[
+  {
+    "question": "A process waiting for an I/O operation to complete is in which state?",
+    "options": [
+      "Ready",
+      "Running",
+      "Waiting (blocked)",
+      "Terminated"
+    ],
+    "sourceType": "provided_resource",
+    "sourceFile": "TalentShine_Accenture_CS_Fundamentals_Handout.docx",
+    "sourceLocation": "OS4",
+    "id": 1,
+    "topic": "Operating Systems"
+  },
+  {
+    "question": "Which scheduling algorithm gives the minimum average waiting time?",
+    "options": [
+      "FCFS",
+      "SJF",
+      "Round Robin",
+      "Priority"
+    ],
+    "sourceType": "provided_resource",
+    "sourceFile": "TalentShine_Accenture_CS_Fundamentals_Handout.docx",
+    "sourceLocation": "OS7",
+    "id": 2,
+    "topic": "Operating Systems"
+  },
+  {
+    "question": "How many necessary conditions (Coffman conditions) must hold simultaneously for a deadlock?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "sourceType": "provided_resource",
+    "sourceFile": "TalentShine_Accenture_CS_Fundamentals_Handout.docx",
+    "sourceLocation": "OS11",
+    "id": 3,
+    "topic": "Operating Systems"
+  },
+  {
+    "question": "Belady's anomaly (more frames causing more page faults) occurs in which page replacement algorithm?",
+    "options": [
+      "LRU",
+      "Optimal",
+      "FIFO",
+      "LFU"
+    ],
+    "sourceType": "provided_resource",
+    "sourceFile": "TalentShine_Accenture_CS_Fundamentals_Handout.docx",
+    "sourceLocation": "OS15",
+    "id": 4,
+    "topic": "Operating Systems"
+  },
+  {
+    "question": "Which system call creates a new process in UNIX/Linux?",
+    "options": [
+      "exec()",
+      "fork()",
+      "wait()",
+      "exit()"
+    ],
+    "sourceType": "provided_resource",
+    "sourceFile": "TalentShine_Accenture_CS_Fundamentals_Handout.docx",
+    "sourceLocation": "OS21",
+    "id": 5,
+    "topic": "Operating Systems"
+  },
+  {
+    "question": "Which of these is NOT a requirement of a critical section solution?",
+    "options": [
+      "Mutual exclusion",
+      "Progress",
+      "Bounded waiting",
+      "Maximum CPU usage"
+    ],
+    "sourceType": "provided_resource",
+    "sourceFile": "TalentShine_Accenture_CS_Fundamentals_Handout.docx",
+    "sourceLocation": "OS24",
+    "id": 6,
+    "topic": "Operating Systems"
+  },
+  {
+    "question": "Which memory allocation strategy allocates the smallest free block that is large enough?",
+    "options": [
+      "First fit",
+      "Best fit",
+      "Worst fit",
+      "Next fit"
+    ],
+    "sourceType": "provided_resource",
+    "sourceFile": "TalentShine_Accenture_CS_Fundamentals_Handout.docx",
+    "sourceLocation": "OS30",
+    "id": 7,
+    "topic": "Operating Systems"
+  },
+  {
+    "question": "What is the default port number of HTTPS?",
+    "options": [
+      "80",
+      "21",
+      "443",
+      "25"
+    ],
+    "sourceType": "provided_resource",
+    "sourceFile": "TalentShine_Accenture_Networking_Handout.docx",
+    "sourceLocation": "B5",
+    "id": 8,
+    "topic": "Networking"
+  },
+  {
+    "question": "Which protocol translates a domain name like www.accenture.com into an IP address?",
+    "options": [
+      "DHCP",
+      "DNS",
+      "ARP",
+      "FTP"
+    ],
+    "sourceType": "provided_resource",
+    "sourceFile": "TalentShine_Accenture_Networking_Handout.docx",
+    "sourceLocation": "B6",
+    "id": 9,
+    "topic": "Networking"
+  },
+  {
+    "question": "Which device forwards frames based on MAC addresses?",
+    "options": [
+      "Hub",
+      "Router",
+      "Switch",
+      "Repeater"
+    ],
+    "sourceType": "provided_resource",
+    "sourceFile": "TalentShine_Accenture_Networking_Handout.docx",
+    "sourceLocation": "B16",
+    "id": 10,
+    "topic": "Networking"
+  },
+  {
+    "question": "Which port number does SSH use?",
+    "options": [
+      "21",
+      "22",
+      "23",
+      "25"
+    ],
+    "sourceType": "provided_resource",
+    "sourceFile": "TalentShine_Accenture_Networking_Handout.docx",
+    "sourceLocation": "B21",
+    "id": 11,
+    "topic": "Networking"
+  },
+  {
+    "question": "Which HTTP status code indicates a successful request?",
+    "options": [
+      "200",
+      "301",
+      "404",
+      "500"
+    ],
+    "sourceType": "provided_resource",
+    "sourceFile": "TalentShine_Accenture_Networking_Handout.docx",
+    "sourceLocation": "B23",
+    "id": 12,
+    "topic": "Networking"
+  },
+  {
+    "question": "Users can ping 8.8.8.8 successfully but cannot open www.google.com in the browser. What is the most likely problem?",
+    "options": [
+      "Faulty network cable",
+      "DNS resolution failure",
+      "Wrong MAC address",
+      "Switch failure"
+    ],
+    "sourceType": "provided_resource",
+    "sourceFile": "TalentShine_Accenture_Networking_Handout.docx",
+    "sourceLocation": "S2",
+    "id": 13,
+    "topic": "Networking"
+  },
+  {
+    "question": "Which cloud model gives the customer control over the OS but not the physical hardware?",
+    "options": [
+      "SaaS",
+      "PaaS",
+      "IaaS",
+      "FaaS"
+    ],
+    "sourceType": "provided_resource",
+    "sourceFile": "TalentShine_Accenture_Networking_Handout.docx",
+    "sourceLocation": "A17",
+    "id": 14,
+    "topic": "Cloud"
+  },
+  {
+    "question": "A startup wants to deploy its application without managing servers, operating systems or runtimes. Which cloud model fits?",
+    "options": [
+      "IaaS",
+      "PaaS",
+      "On-premises",
+      "Colocation"
+    ],
+    "sourceType": "provided_resource",
+    "sourceFile": "TalentShine_Accenture_Networking_Handout.docx",
+    "sourceLocation": "S11",
+    "id": 15,
+    "topic": "Cloud"
+  },
+  {
+    "question": "Which cloud service model delivers ready-to-use applications over the internet, such as web-based email?",
+    "options": [
+      "IaaS",
+      "PaaS",
+      "SaaS",
+      "DaaS"
+    ],
+    "sourceType": "provided_resource",
+    "sourceFile": "TalentShine_Accenture_Networking_Handout.docx",
+    "sourceLocation": "AP1",
+    "id": 16,
+    "topic": "Cloud"
+  },
+  {
+    "question": "Which of the following is NOT an essential characteristic of cloud computing?",
+    "options": [
+      "On-demand self-service",
+      "Broad network access",
+      "Rapid elasticity",
+      "Fixed capacity provisioning"
+    ],
+    "sourceType": "provided_resource",
+    "sourceFile": "TalentShine_Accenture_Networking_Handout.docx",
+    "sourceLocation": "AP5",
+    "id": 17,
+    "topic": "Cloud"
+  },
+  {
+    "question": "A team automatically builds and tests every integrated code change. What practice?",
+    "options": [
+      "Continuous Integration",
+      "Manual deployment",
+      "Waterfall planning",
+      "Ad hoc testing"
+    ],
+    "sourceType": "provided_resource",
+    "sourceFile": "01_Accenture_DevOps_MCQ_Master_Notes.docx",
+    "sourceLocation": "Question DEVOPS1",
+    "id": 18,
+    "topic": "DevOps"
+  },
+  {
+    "question": "Which Kubernetes object gives stable access to changing pods?",
+    "options": [
+      "Service",
+      "Volume",
+      "Image",
+      "Secret"
+    ],
+    "sourceType": "provided_resource",
+    "sourceFile": "01_Accenture_DevOps_MCQ_Master_Notes.docx",
+    "sourceLocation": "Question DEVOPS2",
+    "id": 19,
+    "topic": "DevOps"
+  },
+  {
+    "question": "What is a running instance of a Docker image?",
+    "options": [
+      "Container",
+      "Repository",
+      "Cluster",
+      "Pipeline"
+    ],
+    "sourceType": "provided_resource",
+    "sourceFile": "01_Accenture_DevOps_MCQ_Master_Notes.docx",
+    "sourceLocation": "Question DEVOPS3",
+    "id": 20,
+    "topic": "DevOps"
+  },
+  {
+    "question": "What does the CIA triad in information security stand for?",
+    "options": [
+      "Control, Integrity, Access",
+      "Confidentiality, Integrity, Availability",
+      "Confidentiality, Identity, Authentication",
+      "Cyber, Internet, Access"
+    ],
+    "sourceType": "provided_resource",
+    "sourceFile": "TalentShine_Accenture_CS_Fundamentals_Handout.docx",
+    "sourceLocation": "CS1",
+    "id": 21,
+    "topic": "Security"
+  },
+  {
+    "question": "The main function of a firewall is to:",
+    "options": [
+      "Remove viruses from files",
+      "Monitor and filter network traffic based on security rules",
+      "Speed up internet",
+      "Back up data"
+    ],
+    "sourceType": "provided_resource",
+    "sourceFile": "TalentShine_Accenture_CS_Fundamentals_Handout.docx",
+    "sourceLocation": "CS10",
+    "id": 22,
+    "topic": "Security"
+  },
+  {
+    "question": "A tester enters ' OR '1'='1 in a login form's username field and logs in without a valid password. Which vulnerability exists?",
+    "options": [
+      "XSS",
+      "SQL injection",
+      "CSRF",
+      "Buffer overflow"
+    ],
+    "sourceType": "provided_resource",
+    "sourceFile": "TalentShine_Accenture_CS_Fundamentals_Handout.docx",
+    "sourceLocation": "CSC4",
+    "id": 23,
+    "topic": "Security"
+  },
+  {
+    "question": "A blog's comment box lets a user post a script that runs in the browser of every visitor who views the page. Which attack is this?",
+    "options": [
+      "Stored XSS",
+      "Reflected XSS",
+      "SQL injection",
+      "DDoS"
+    ],
+    "sourceType": "provided_resource",
+    "sourceFile": "TalentShine_Accenture_CS_Fundamentals_Handout.docx",
+    "sourceLocation": "CSC5",
+    "id": 24,
+    "topic": "Security"
+  },
+  {
+    "question": "Which of the following is NOT one of the four pillars of OOP?",
+    "options": [
+      "Encapsulation",
+      "Inheritance",
+      "Polymorphism",
+      "Compilation"
+    ],
+    "sourceType": "provided_resource",
+    "sourceFile": "TalentShine_Accenture_CS_Fundamentals_Handout.docx",
+    "sourceLocation": "OB1",
+    "id": 25,
+    "topic": "Software Design"
+  },
+  {
+    "question": "Which access modifier is the most restrictive?",
+    "options": [
+      "public",
+      "protected",
+      "default",
+      "private"
+    ],
+    "sourceType": "provided_resource",
+    "sourceFile": "TalentShine_Accenture_CS_Fundamentals_Handout.docx",
+    "sourceLocation": "OB7",
+    "id": 26,
+    "topic": "Software Design"
+  },
+  {
+    "question": "Which clause is used to filter groups after aggregation?",
+    "options": [
+      "WHERE",
+      "HAVING",
+      "ORDER BY",
+      "LIMIT"
+    ],
+    "sourceType": "provided_resource",
+    "sourceFile": "TalentShine_Accenture_Coding_SQL_Frontend_Handout .docx",
+    "sourceLocation": "SQ1",
+    "id": 27,
+    "topic": "Database / SQL"
+  },
+  {
+    "question": "Which JOIN returns all rows from the left table and matching rows from the right table?",
+    "options": [
+      "INNER JOIN",
+      "LEFT JOIN",
+      "RIGHT JOIN",
+      "CROSS JOIN"
+    ],
+    "sourceType": "provided_resource",
+    "sourceFile": "TalentShine_Accenture_Coding_SQL_Frontend_Handout .docx",
+    "sourceLocation": "SQ3",
+    "id": 28,
+    "topic": "Database / SQL"
+  },
+  {
+    "question": "Which is the correct way to check for missing values?",
+    "options": [
+      "WHERE DEPTID = NULL",
+      "WHERE DEPTID IS NULL",
+      "WHERE DEPTID == NULL",
+      "WHERE DEPTID EQUALS NULL"
+    ],
+    "sourceType": "provided_resource",
+    "sourceFile": "TalentShine_Accenture_Coding_SQL_Frontend_Handout .docx",
+    "sourceLocation": "SQ4",
+    "id": 29,
+    "topic": "Database / SQL"
+  },
+  {
+    "question": "Which wildcard matches exactly ONE character in a LIKE pattern?",
+    "options": [
+      "%",
+      "_",
+      "*",
+      "?"
+    ],
+    "sourceType": "provided_resource",
+    "sourceFile": "TalentShine_Accenture_Coding_SQL_Frontend_Handout .docx",
+    "sourceLocation": "SQ5",
+    "id": 30,
+    "topic": "Database / SQL"
+  },
+  {
+    "question": "Which normal form removes transitive dependencies?",
+    "options": [
+      "1NF",
+      "2NF",
+      "3NF",
+      "None"
+    ],
+    "sourceType": "provided_resource",
+    "sourceFile": "TalentShine_Accenture_Coding_SQL_Frontend_Handout .docx",
+    "sourceLocation": "SQ14",
+    "id": 31,
+    "topic": "Database / SQL"
+  },
+  {
+    "question": "Which HTML tag creates a hyperlink?",
+    "options": [
+      "<link>",
+      "<a>",
+      "<href>",
+      "<url>"
+    ],
+    "sourceType": "provided_resource",
+    "sourceFile": "TalentShine_Accenture_Coding_SQL_Frontend_Handout .docx",
+    "sourceLocation": "FE1",
+    "id": 32,
+    "topic": "Web Technologies"
+  },
+  {
+    "question": "Which is the correct CSS selector for an element with id=\"tiger-image\"?",
+    "options": [
+      ".tiger-image",
+      "#tiger-image",
+      "tiger-image",
+      "*tiger-image"
+    ],
+    "sourceType": "provided_resource",
+    "sourceFile": "TalentShine_Accenture_Coding_SQL_Frontend_Handout .docx",
+    "sourceLocation": "FE4",
+    "id": 33,
+    "topic": "Web Technologies"
+  },
+  {
+    "question": "In the CSS box model, which property creates space INSIDE the border?",
+    "options": [
+      "margin",
+      "padding",
+      "outline",
+      "spacing"
+    ],
+    "sourceType": "provided_resource",
+    "sourceFile": "TalentShine_Accenture_Coding_SQL_Frontend_Handout .docx",
+    "sourceLocation": "FE5",
+    "id": 34,
+    "topic": "Web Technologies"
+  },
+  {
+    "question": "Which JavaScript method selects an element by its id?",
+    "options": [
+      "document.querySelectorAll()",
+      "document.getElementById()",
+      "document.getElementsByClassName()",
+      "document.findId()"
+    ],
+    "sourceType": "provided_resource",
+    "sourceFile": "TalentShine_Accenture_Coding_SQL_Frontend_Handout .docx",
+    "sourceLocation": "FE10",
+    "id": 35,
+    "topic": "Web Technologies"
+  },
+  {
+    "question": "Which HTML5 attribute makes an input field mandatory?",
+    "options": [
+      "validate",
+      "required",
+      "mandatory",
+      "needed"
+    ],
+    "sourceType": "provided_resource",
+    "sourceFile": "TalentShine_Accenture_Coding_SQL_Frontend_Handout .docx",
+    "sourceLocation": "FE17",
+    "id": 36,
+    "topic": "Web Technologies"
+  },
+  {
+    "question": "What is the output? for (int i = 0; i < 5; i++) { if (i == 3) continue; System.out.print(i); }",
+    "options": [
+      "0123",
+      "0124",
+      "012",
+      "01234"
+    ],
+    "sourceType": "provided_resource",
+    "sourceFile": "TalentShine_Accenture_Coding_SQL_Frontend_Handout .docx",
+    "sourceLocation": "OM3",
+    "id": 37,
+    "topic": "Programming Fundamentals"
+  },
+  {
+    "question": "Python: what is the output? a = [1, 2, 3]; b = a; b.append(4); print(len(a))",
+    "options": [
+      "3",
+      "4",
+      "Error",
+      "1"
+    ],
+    "sourceType": "provided_resource",
+    "sourceFile": "TalentShine_Accenture_Coding_SQL_Frontend_Handout .docx",
+    "sourceLocation": "OM4",
+    "id": 38,
+    "topic": "Programming Fundamentals"
+  },
+  {
+    "question": "Python: what is the output? print(7 // 2, 7 % 2, 2 ** 3)",
+    "options": [
+      "3.5 1 6",
+      "3 1 8",
+      "3 1 6",
+      "4 1 8"
+    ],
+    "sourceType": "provided_resource",
+    "sourceFile": "TalentShine_Accenture_Coding_SQL_Frontend_Handout .docx",
+    "sourceLocation": "OM6",
+    "id": 39,
+    "topic": "Programming Fundamentals"
+  },
+  {
+    "question": "What is the time complexity of searching a key in a HashMap on average?",
+    "options": [
+      "O(1)",
+      "O(log n)",
+      "O(n)",
+      "O(n log n)"
+    ],
+    "sourceType": "provided_resource",
+    "sourceFile": "TalentShine_Accenture_Coding_SQL_Frontend_Handout .docx",
+    "sourceLocation": "OM7",
+    "id": 40,
+    "topic": "Programming Fundamentals"
+  },
+  {
+    "question": "Python: what is the output? s = \"Accenture\"; print(s[::-1][:3])",
+    "options": [
+      "Acc",
+      "eru",
+      "ert",
+      "cce"
+    ],
+    "sourceType": "provided_resource",
+    "sourceFile": "TalentShine_Accenture_Coding_SQL_Frontend_Handout .docx",
+    "sourceLocation": "OM10",
+    "id": 41,
+    "topic": "Programming Fundamentals"
+  },
+  {
+    "question": "Java: what is the output? int[] a = {3, 1, 2}; Arrays.sort(a); System.out.println(a[0] + a[2]);",
+    "options": [
+      "4",
+      "5",
+      "3",
+      "6"
+    ],
+    "sourceType": "provided_resource",
+    "sourceFile": "TalentShine_Accenture_Coding_SQL_Frontend_Handout .docx",
+    "sourceLocation": "OM11",
+    "id": 42,
+    "topic": "Programming Fundamentals"
+  },
+  {
+    "question": "What is the time complexity of the Two Sum solution using a HashMap?",
+    "options": [
+      "O(n²)",
+      "O(n log n)",
+      "O(n)",
+      "O(1)"
+    ],
+    "sourceType": "provided_resource",
+    "sourceFile": "TalentShine_Accenture_Coding_SQL_Frontend_Handout .docx",
+    "sourceLocation": "OM14",
+    "id": 43,
+    "topic": "Programming Fundamentals"
+  },
+  {
+    "question": "Which shortcut inserts a page break?",
+    "options": [
+      "Shift+Enter",
+      "Ctrl+Enter",
+      "Alt+Enter",
+      "Ctrl+Shift+B"
+    ],
+    "sourceType": "provided_resource",
+    "sourceFile": "TalentShine_MS_Office_Handout_and_MCQ_Bank.docx",
+    "sourceLocation": "WORD1",
+    "id": 44,
+    "topic": "Other Topics"
+  },
+  {
+    "question": "How many rows does an Excel 2007+ worksheet have?",
+    "options": [
+      "65,536",
+      "1,048,576",
+      "16,384",
+      "1,000,000"
+    ],
+    "sourceType": "provided_resource",
+    "sourceFile": "TalentShine_MS_Office_Handout_and_MCQ_Bank.docx",
+    "sourceLocation": "EXCEL1",
+    "id": 45,
+    "topic": "Other Topics"
+  }
+]
