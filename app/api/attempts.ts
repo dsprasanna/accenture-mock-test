@@ -1,5 +1,5 @@
 import { createHash, randomBytes } from 'node:crypto'
-import { getAdminClient, json, requestBody } from './_lib/supabase'
+import { getAdminClient, json, requestBody } from './_lib/supabase.js'
 
 const DURATION_MS = 40 * 60 * 1000
 const PASSING_SCORE = 34

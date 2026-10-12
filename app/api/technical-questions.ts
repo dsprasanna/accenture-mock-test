@@ -1,4 +1,4 @@
-import { getAdminClient, json } from './_lib/supabase'
+import { getAdminClient, json } from './_lib/supabase.js'
 
 export default async function handler(_req: any, res: any) {
   if (_req.method !== 'GET') return json(res, 405, { error: 'Method not allowed' })
